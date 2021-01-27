@@ -1,3 +1,4 @@
+# Part 1 Questions
 1. The console will log the value of i at the completed loop because var allows the value of i to exist outside of the loop
 2. The console will log the value of discountedPrice that was assigned last by the loop because var allows the value of discountedPrice to exist outside of the loop and it will continue to be reassgined by the loop until the loop is completed.
 3. The console will log the value of finalPrice that was set last by the loop because finalPrice continues to be reassigned by the loop until it is complete.
