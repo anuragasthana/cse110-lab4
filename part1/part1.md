@@ -10,10 +10,18 @@
 10. An error would be thrown because discountedPrice is defined in the loop  and thus is only available in the scope of the loop.
 11. Assuming there are no previous statements that throw errors, the console will print 0 because finalPrice is a const that was set to 0 and thus cannot be changed.
 12. Assuming there are no previous statements that throw errors, the console will print an empty array because discounted is a const array that was initially empty and thus cannot be set again.
-13. (indexed by roman numerals)
+13.   
     1. student.name
     2. student["Grad Year"]
     3. student.call(greeting)
     4. student["Favorite Teacher"].name
     5. student.courseLoad[0]
-14. 
+14.   
+    1.  '32', the string '3' concatenated with the number 2.
+    2.  1, the string '3' turned into a number because of the subtraction sign and 3 - 2 resulted in 1.
+    3.  3, 3 was added to null which took on a value of 0.
+    4.  '3null', the string '3' concatenated with null, which turned into a string.
+    5.  4, true took on a value of 1 and added to 3 to result in 4.
+    6.  0, false took on a value of 0 and null took on a value of 0 and both added to 0.
+    7.  '3undefined', the string "3" concatenated with undefined.
+    8.  NaN, undefined is not a number so substracting that from "3" resulted in a number that does not exist.
