@@ -6,4 +6,6 @@
 6. A ReferenceError will be thrown because discountedPrice is a let variable and thus is only available in the scope of the loop.
 7. The console will log the value of finalPrice that was set last by the loop because finalPrice was defined outside of the loop and can be accessed by the log statement as they are in the same scope.
 8. The function will return [50,100,150]. Assuming there are no statements that would cause an error, this array would be returned because the discounted array is defined in the same scope as the return statement. The loop will essentially take each value in prices, multiply them by (1-0.5), round them (is not necessary in this case because the nuumbers divide evenly), and put them in the discounted which is the array that is returned after all other functions are completed.
-9. 
+9. A ReferenceError will be thrown because i is a let variable and thus is only available in the scope of the loop.
+10. An error would be thrown because discountedPrice is defined in the loop  and thus is only available in the scope of the loop.
+11. 
