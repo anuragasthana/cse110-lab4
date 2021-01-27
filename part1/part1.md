@@ -1,0 +1,9 @@
+1. The console will log the value of i at the completed loop because var allows the value of i to exist outside of the loop
+2. The console will log the value of discountedPrice that was assigned last by the loop because var allows the value of discountedPrice to exist outside of the loop and it will continue to be reassgined by the loop until the loop is completed.
+3. The console will log the value of finalPrice that was set last by the loop because finalPrice continues to be reassigned by the loop until it is complete.
+4. The function will return [50,100,150]. The loop will essentially take each value in prices, multiply them by (1-0.5), round them (is not necessary in this case because the nuumbers divide evenly), and put them in the discounted which is the array that is returned after all other functions are completed.
+5. A ReferenceError will be thrown because i is a let variable and thus is only available in the scope of the loop.
+6. A ReferenceError will be thrown because discountedPrice is a let variable and thus is only available in the scope of the loop.
+7. The console will log the value of finalPrice that was set last by the loop because finalPrice was defined outside of the loop and can be accessed by the log statement as they are in the same scope.
+8. The function will return [50,100,150]. Assuming there are no statements that would cause an error, this array would be returned because the discounted array is defined in the same scope as the return statement. The loop will essentially take each value in prices, multiply them by (1-0.5), round them (is not necessary in this case because the nuumbers divide evenly), and put them in the discounted which is the array that is returned after all other functions are completed.
+9. 
