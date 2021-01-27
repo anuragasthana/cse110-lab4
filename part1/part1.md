@@ -25,3 +25,10 @@
     6.  0, false took on a value of 0 and null took on a value of 0 and both added to 0.
     7.  '3undefined', the string "3" concatenated with undefined.
     8.  NaN, undefined is not a number so substracting that from "3" resulted in a number that does not exist.
+15. 
+    1.  true, '2' gets converted from a string to a number and is greater than 1
+    2.  true, '2' and '12' get converted into numbers and 2 is less than 12
+    3.  true, the number 2 and the string '2' have the same value
+    4.  false, the number 2 and the string '2' may have the same value but they are not the same type
+    5.  false, true has a value of 1 and 1 is not equal to 2
+    6.  true, the number 2 is evaluated as a boolean and is true, returns true when compared to true
