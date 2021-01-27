@@ -8,4 +8,5 @@
 8. The function will return [50,100,150]. Assuming there are no statements that would cause an error, this array would be returned because the discounted array is defined in the same scope as the return statement. The loop will essentially take each value in prices, multiply them by (1-0.5), round them (is not necessary in this case because the nuumbers divide evenly), and put them in the discounted which is the array that is returned after all other functions are completed.
 9. A ReferenceError will be thrown because i is a let variable and thus is only available in the scope of the loop.
 10. An error would be thrown because discountedPrice is defined in the loop  and thus is only available in the scope of the loop.
-11. 
+11. Assuming there are no previous statements that throw errors, the console will print 0 because finalPrice is a const that was set to 0 and thus cannot be changed.
+12. Assuming there are no previous statements that throw errors, the console will print an empty array because discounted is a const array that was initially empty and thus cannot be set again.
