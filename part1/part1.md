@@ -32,3 +32,6 @@
     4.  false, the number 2 and the string '2' may have the same value but they are not the same type
     5.  false, true has a value of 1 and 1 is not equal to 2
     6.  true, the number 2 is evaluated as a boolean and is true, returns true when compared to true
+16. == compares the values of the experssions on either of its sides while === compares the values and types of the expressions on either of its sides.
+17. "How are you?" is printed because in the first if statement, 2 == true evaluates to 2 == 1 which is not true and the next if statement is reached. 2 is evaluated as a boolean expression. Since it is not equal to 0, the second log statement is printed. Since this is part of an else if block, the code snippet stops there.
+18. part1-question18.js
