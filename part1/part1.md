@@ -10,3 +10,9 @@
 10. An error would be thrown because discountedPrice is defined in the loop  and thus is only available in the scope of the loop.
 11. Assuming there are no previous statements that throw errors, the console will print 0 because finalPrice is a const that was set to 0 and thus cannot be changed.
 12. Assuming there are no previous statements that throw errors, the console will print an empty array because discounted is a const array that was initially empty and thus cannot be set again.
+13. 
+    a. student.name
+    b. student["Grad Year"]
+    c. student.call(greeting)
+    d. student["Favorite Teacher"].name
+    e. student.courseLoad[0]
