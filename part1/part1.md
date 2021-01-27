@@ -11,8 +11,9 @@
 11. Assuming there are no previous statements that throw errors, the console will print 0 because finalPrice is a const that was set to 0 and thus cannot be changed.
 12. Assuming there are no previous statements that throw errors, the console will print an empty array because discounted is a const array that was initially empty and thus cannot be set again.
 13. 
-    a. student.name
-    b. student["Grad Year"]
-    c. student.call(greeting)
-    d. student["Favorite Teacher"].name
-    e. student.courseLoad[0]
+    1. student.name
+    2. student["Grad Year"]
+    3. student.call(greeting)
+    4. student["Favorite Teacher"].name
+    5. student.courseLoad[0]
+14. 
