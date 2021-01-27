@@ -35,3 +35,9 @@
 16. == compares the values of the experssions on either of its sides while === compares the values and types of the expressions on either of its sides.
 17. "How are you?" is printed because in the first if statement, 2 == true evaluates to 2 == 1 which is not true and the next if statement is reached. 2 is evaluated as a boolean expression. Since it is not equal to 0, the second log statement is printed. Since this is part of an else if block, the code snippet stops there.
 18. part1-question18.js
+19. An empty array would be returned because newArr is a const array and was initially defined to be empty.
+20. part1-question20.js
+21. 1
+    4
+    3
+    2
